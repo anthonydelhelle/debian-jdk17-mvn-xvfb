@@ -1,0 +1,3 @@
+Docker using a debian stable-slim and allows you to 
+  - compile application with maven & java jdk 11
+  - execute UI test using xvfb.
