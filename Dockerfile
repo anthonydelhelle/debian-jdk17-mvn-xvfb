@@ -1,7 +1,7 @@
 FROM debian:stable-slim
 
 # update package
-RUN apt-get -y update
+RUN apt-get -y update && apt-get -y upgrade
 
 # install xvfb
 RUN apt-get -y install xvfb
